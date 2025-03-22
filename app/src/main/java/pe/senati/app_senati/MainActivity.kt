@@ -27,6 +27,20 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        // int/Integer edad, String nombre
+        // var edad = 18
+
+        val fecha = "21/03/2025"
+        val nombre = "Aldo"
+        val estado: Boolean = false
+        val sexo = 'F'
+        val edad: Int = 60
+        val precio:Float =50.84F
+
+        println("Mi nombre es: "+nombre)
+        //System.out.println("mensaje...");
+
     }
 }
 
