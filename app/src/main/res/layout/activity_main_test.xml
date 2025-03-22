@@ -12,7 +12,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="hola"
+        android:textColor="@color/purple_700"
+        android:text="@string/title"
         android:textStyle="bold" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        tools:layout_editor_absoluteX="1205dp"-->
+<!--        tools:layout_editor_absoluteY="941dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

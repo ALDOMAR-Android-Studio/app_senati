@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">app_senati</string>
+    <string name="title">Mi primera aplicación</string>
 </resources>
