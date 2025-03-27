@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">app_senati</string>
+    <string name="app_name">App SENATI</string>
     <string name="title">Mi primera aplicación</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -43,4 +43,25 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
+    <string name="title_class">Clase de TEXT</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="dni">DNI</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="password">Password</string>
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Australia</item>
+        <item>Perú</item>
+        <item>Ecuador</item>
+        <item>Panamá</item>
+    </string-array>
+
 </resources>
