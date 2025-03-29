@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.graphics.Color
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
+import android.widget.MultiAutoCompleteTextView
 import android.widget.Toast
 
 import androidx.core.view.ViewCompat
@@ -45,6 +46,12 @@ class TextActivity : AppCompatActivity() {
         var countries = resources.getStringArray(R.array.countries_array)
         var adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, countries)
         autoCompleteTextView.setAdapter(adapter)
+
+
+        var multiAutoCompleteTextView = findViewById<MultiAutoCompleteTextView>(R.id.multiAutoCompleteTextView)
+        multiAutoCompleteTextView.setAdapter(adapter)
+        multiAutoCompleteTextView.setTokenizer(MultiAutoCompleteTextView.CommaTokenizer())
+
 
     }
 }

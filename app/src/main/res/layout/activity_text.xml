@@ -78,5 +78,12 @@
         android:text=""
         android:hint="Paises"/>
 
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="MultiAutoCompleteTextView"/>
+
 
 </LinearLayout>

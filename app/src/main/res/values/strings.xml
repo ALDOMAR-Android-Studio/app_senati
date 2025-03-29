@@ -50,6 +50,7 @@
     <string name="dni">DNI</string>
     <string name="correo_electronico">Correo electrónico</string>
     <string name="password">Password</string>
+    <string name="enviar">Enviar</string>
     <string-array name="countries_array">
         <item>Afghanistan</item>
         <item>Albania</item>
